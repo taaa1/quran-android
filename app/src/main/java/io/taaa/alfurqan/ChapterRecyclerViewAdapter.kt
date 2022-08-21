@@ -1,18 +1,11 @@
 package io.taaa.alfurqan
 
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-
-import io.taaa.alfurqan.placeholder.PlaceholderContent.PlaceholderItem
+import androidx.recyclerview.widget.RecyclerView
 import io.taaa.alfurqan.databinding.FragmentChapterBinding
 
-/**
- * [RecyclerView.Adapter] that can display a [PlaceholderItem].
- * TODO: Replace the implementation with code for your data type.
- */
 class ChapterRecyclerViewAdapter(
     private val values: Array<Chapters>
 ) : RecyclerView.Adapter<ChapterRecyclerViewAdapter.ViewHolder>() {
