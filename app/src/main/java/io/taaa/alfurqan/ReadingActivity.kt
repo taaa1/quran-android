@@ -21,7 +21,8 @@ class ReadingActivity : AppCompatActivity() {
         val frag = AyatFragment()
         frag.arguments = bundle
 
-        supportFragmentManager.beginTransaction().add(R.id.fragmentContainerView2, frag).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView2, frag)
+            .commit()
 
         setSupportActionBar(binding.toolbar)
 
